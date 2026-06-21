@@ -16,7 +16,7 @@ function readAndSendFile(res,filename)
     })
 }
 app.get("/tictactoe",(req,res)=>{
-    readAndSendFile(res,"tictoe.html");
+    readAndSendFile(res,"index.html");
 })
 app.listen(8080,()=>{
     console.log("server started at port 8080");
